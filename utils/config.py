@@ -160,38 +160,6 @@ class Config_CAMUS_Video_Semi():
     modelname = "SAM"
     semi = True
 
-# class Config_CAMUS_PNG():
-#     data_path = "sam2/dataset/camus_png"
-#     data_subpath = "CAMUS_PNG"
-#     save_path = "./checkpoints/CAMUS_PNG/"
-#     result_path = "./result/CAMUS_PNG/"
-#     tensorboard_path = "./tensorboard/CAMUS_PNG/"
-#     load_path = save_path + "CAMUS_PNG.pth"
-#     save_path_code = "_"
-
-#     workers = 8
-#     epochs = 100
-#     batch_size = 16
-#     learning_rate = 1e-4
-#     momentum = 0.9
-#     classes = 2
-#     img_size = 256
-#     train_split = "train"
-#     val_split = "val"
-#     test_split = "test"
-#     crop = None
-#     eval_freq = 1
-#     save_freq = 10
-#     device = "cuda"
-#     cuda = "on"
-#     gray = "yes"
-#     img_channel = 1
-#     eval_mode = "camus"
-#     pre_trained = False
-#     mode = "train"
-#     visual = True
-#     modelname = "SAM"
-#     semi = True
 # ==================================================================================================
 def get_config(task="US30K"):
     if task == "EchoNet":
